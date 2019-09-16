@@ -28,7 +28,7 @@ public class ManagerDaoImpl implements iManagerDao{
 		//加载驱动
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/banksystem", "root", "19981223zcy");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/banksystem", "root", "123456");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
